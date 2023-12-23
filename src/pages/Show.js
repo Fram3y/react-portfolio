@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import projectsJSON from "../assets/data/projects.json";
 
 const Show = () => {
-  const [projects, setProjects] = useState(projectsJSON);
+  const [projects] = useState(projectsJSON);
   const { slug } = useParams();
 
   const projectList = projects.map((project) => {

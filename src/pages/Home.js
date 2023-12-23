@@ -3,7 +3,7 @@ import { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 
 const Home = () => {
-  const [projects, setProjects] = useState(projectsJSON);
+  const [projects] = useState(projectsJSON);
 
   const projectList = projects.map((project, i) => {
     if (project.featured === true) {

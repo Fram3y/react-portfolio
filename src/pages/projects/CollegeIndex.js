@@ -3,7 +3,7 @@ import ProjectCard from "../../components/ProjectCard";
 import projectsJSON from "../../assets/data/projects.json";
 
 const CollegeIndex = () => {
-  const [projects, setProjects] = useState(projectsJSON);
+  const [projects] = useState(projectsJSON);
 
   const projectList = projects.map((project, i) => {
     if (project.college === true) {
