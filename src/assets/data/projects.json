@@ -1,0 +1,191 @@
+[
+    {
+        "slug": "todo-app",
+        "title": "Todo App",
+        "description": "This is a Todo App I made using React. I found this project interesting. I learned about local storage.",
+        "images": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://i.imgur.com/xNKgn0A.png"
+            }
+        ],
+        "imageWide": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://i.imgur.com/xNKgn0A.png"
+            }
+        ],
+        "date": "2023",
+        "tags": ["JavaScript", "React", "HTML", "Front-End", "React"],
+        "github": "https://github.com/Fram3y/react-todo",
+        "featured": true,
+        "college": true
+    },
+
+    {
+        "slug": "countries-list",
+        "title": "Countries List",
+        "description": "This was a class assessment that was based on using an API and showing an understanding on manipulating data",
+        "images": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://i.imgur.com/LJhAQ9z.png"
+            }
+        ],
+        "imageWide": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://i.imgur.com/xNKgn0A.png"
+            }
+        ],
+        "date": "2023",
+        "tags": ["JavaScript", "React", "HTML", "Front-End", "API"],
+        "website": "http://google.com",
+        "github": "https://github.com/Fram3y/react-countries",
+        "featured": true,
+        "college": true
+    },
+
+    {
+        "slug": "giphy-app",
+        "title": "Giphy App",
+        "description": "This is an application that we created in college as an example to begin working with API's and with axios.",
+        "images": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://i.imgur.com/D11grPR.png"
+            }
+        ],
+        "imageWide": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://i.imgur.com/xNKgn0A.png"
+            }
+        ],
+        "date": "2023",
+        "tags": ["JavaScript", "React", "HTML", "Front-End", "API"],
+        "website": "http://google.com",
+        "github": "https://github.com/IADT/react-giph-Fram3y",
+        "featured": true,
+        "college": true
+    },
+
+    {
+        "slug": "design-frameworks",
+        "title": "Design Frameworks",
+        "description": "This is a Todo App I made using React. I found this project interesting. I learned about local storage.",
+        "images": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://i.imgur.com/Az4UfLJ.png"
+            }
+        ],
+        "imageWide": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://i.imgur.com/xNKgn0A.png"
+            }
+        ],
+        "date": "2022",
+        "tags": ["CSS", "SCSS", "HTML", "Front-End"],
+        "website": "http://google.com",
+        "github": "https://github.com/Fram3y/Design_Frameworks_CA",
+        "featured": true,
+        "college": true
+    },
+
+    {
+        "slug": "software-project",
+        "title": "Software Project",
+        "description": "This is a Todo App I made using React. I found this project interesting. I learned about local storage.",
+        "images": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://i.imgur.com/R4pFnWI.png"
+            }
+        ],
+        "imageWide": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://i.imgur.com/xNKgn0A.png"
+            }
+        ],
+        "date": "2022",
+        "tags": ["Larevel", "HTML", "CSS", "SCSS", "Front-End", "Back-End"],
+        "website": "http://google.com",
+        "github": "https://github.com/Fram3y/software_project",
+        "featured": true,
+        "college": true
+    },
+
+    {
+        "slug": "react-courses",
+        "title": "React Courses",
+        "description": "This is a Todo App I made using React. I found this project interesting. I learned about local storage.",
+        "images": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://i.imgur.com/3n3wNLV.png"
+            }
+        ],
+        "imageWide": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://i.imgur.com/xNKgn0A.png"
+            }
+        ],
+        "date": "2022",
+        "tags": ["JavaScript", "React", "HTML", "SCSS", "Front-End", "API"],
+        "website": "http://google.com",
+        "github": "https://github.com/Fram3y/react-courses",
+        "featured": true,
+        "college": true
+    },
+
+    {
+        "slug": "laravel-introduction",
+        "title": "Laravel Introduction",
+        "description": "This is a Todo App I made using React. I found this project interesting. I learned about local storage.",
+        "images": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://i.imgur.com/f8S8ApE.png"
+            }
+        ],
+        "imageWide": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://i.imgur.com/xNKgn0A.png"
+            }
+        ],
+        "date": "2021",
+        "tags": ["PHP", "Laravel", "HTML", "Back-End"],
+        "website": "http://google.com",
+        "github": "https://github.com/Fram3y/Anne-First_Project",
+        "featured": false,
+        "college": true
+    },
+
+    {
+        "slug": "my-game",
+        "title": "My Game",
+        "description": "This is a Todo App I made using React. I found this project interesting. I learned about local storage.",
+        "images": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvLWEwMTAtbWFya3Vzcy0wNDc2LmpwZw.jpg"
+            }
+        ],
+        "imageWide": [
+            {
+                "caption": "Screenshot of the code.",
+                "path": "https://i.imgur.com/xNKgn0A.png"
+            }
+        ],
+        "date": "2021",
+        "tags": ["C#", "Unity", "Blender"],
+        "website": "http://google.com",
+        "featured": false,
+        "college": false
+    }
+]
