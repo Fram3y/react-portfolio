@@ -6,15 +6,14 @@ const Home = () => {
   const [projects] = useState(projectsJSON);
 
   const projectList = projects.map((project, i) => {
-    if (project.featured === true) {
-      return <ProjectCard key={i} project={project} />;
-    }
+    return ((project.featured === true) ? (<ProjectCard key={i} project={project} />) : (""))
   });
 
   if(!projects) return <h1>Loading...</h1>
 
   return (
     <>
+    
       <img src="https://i.imgur.com/WYqijJO.png" alt="Banner" />
       <div className="container mx-auto px-4">
         {/* Featured Works Header */}

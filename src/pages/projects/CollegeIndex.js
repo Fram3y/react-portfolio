@@ -6,9 +6,7 @@ const CollegeIndex = () => {
   const [projects] = useState(projectsJSON);
 
   const projectList = projects.map((project, i) => {
-    if (project.college === true) {
-      return <ProjectCard key={i} project={project} />;
-    }
+    return ((project.college === true) ? (<ProjectCard key={i} project={project} />) : (""))
   });
 
   if(!projects) return <h1>Loading...</h1>

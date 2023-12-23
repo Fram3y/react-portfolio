@@ -7,10 +7,9 @@ const Show = () => {
   const { slug } = useParams();
 
   const projectList = projects.map((project) => {
-    if (project.slug === slug) {
-      return (
-        <>
-          {/* <img
+    return project.slug === slug ? (
+      <>
+        {/* <img
             src={project.imageWide[0].path}
             alt={project.imageWide.caption}
           /> */}
@@ -18,21 +17,22 @@ const Show = () => {
           <h1>Insert App Image Here</h1>
         </div>
 
-          <div className="container mx-auto px-4">
-            {/* Title */}
-            <div className="flex text-2xl my-2">
-              <p className="me-2 font-medium">Title:</p>
-              <p>{project.title}</p>
-            </div>
-            {/* Description */}
-            <div className="flex text-xl mb-2">
-              <p className="me-2 font-medium">Description:</p>
-              <p>{project.description}</p>
-            </div>
+        <div className="container mx-auto px-4">
+          {/* Title */}
+          <div className="flex text-2xl my-2">
+            <p className="me-2 font-medium">Title:</p>
+            <p>{project.title}</p>
           </div>
-        </>
-      );
-    }
+          {/* Description */}
+          <div className="flex text-xl mb-2">
+            <p className="me-2 font-medium">Description:</p>
+            <p>{project.description}</p>
+          </div>
+        </div>
+      </>
+    ) : (
+      ""
+    );
   });
 
   if (!projects) return <h1>Loading...</h1>;

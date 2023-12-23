@@ -6,9 +6,7 @@ const PersonalIndex = () => {
   const [projects] = useState(projectsJSON);
 
   const projectList = projects.map((project, i) => {
-    if (project.college === false) {
-      return <ProjectCard key={i} project={project} />;
-    }
+    return ((project.college === false) ? (<ProjectCard key={i} project={project} />) : (""))
   });
 
   if(!projects) return <h1>Loading...</h1>
