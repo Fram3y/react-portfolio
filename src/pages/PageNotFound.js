@@ -16,6 +16,7 @@ const PageNotFound = () => {
           <img
             className="mb-2"
             src="https://www.shutterstock.com/image-vector/broken-robot-hand-drawn-vector-600nw-478917859.jpg"
+            alt=""
           />
         </div>
       </div>

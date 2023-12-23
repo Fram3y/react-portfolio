@@ -35,6 +35,7 @@ const About = () => {
           <img
             className="ms-44 rounded-full w-96"
             src="https://media.licdn.com/dms/image/D4E03AQGNOrtSJLamiA/profile-displayphoto-shrink_800_800/0/1701087198853?e=1708560000&v=beta&t=pQH8uMPr3K_2tIakNjyG7iF_nudgI63YKrA41RaSf2A"
+            alt=""
           />
         </div>
         {/* End of Personal Profile */}
